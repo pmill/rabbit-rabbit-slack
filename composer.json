@@ -1,0 +1,21 @@
+{
+  "name": "pmill/rabbit-rabbit-slack",
+  "description": "A slack integration for pmill/rabbit-rabbit",
+  "keywords": ["php", "rabbitmq", "rules", "management", "api", "slack"],
+  "homepage": "https://github.com/pmill/rabbit-rabbit-slack",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pmill",
+      "email": "dev.pmill@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "pmill/rabbit-rabbit": "^0.1.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {"pmill\\RabbitRabbitSlack\\": "src/"}
+  }
+}
