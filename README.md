@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This library allows you to post to Slack channels when RabbitMQ queues message counts match conditions.
+This library is an integration for [pmill/rabbit-rabbit](https://github.com/pmill/rabbit-rabbit) allows you to post to Slack channels when RabbitMQ queues message counts match conditions.
 
 ## Requirements
 
@@ -20,7 +20,7 @@ curl -sS https://getcomposer.org/installer | php
 Next, run the Composer command to install the latest version:
 
 ```bash
-composer require pmill/rabbut-rabbit
+composer require pmill/rabbit-rabbit-slack
 ```
 
 ## Slack Setup
